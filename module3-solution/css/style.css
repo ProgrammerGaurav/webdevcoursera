@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+	background-color: #989898;
+	font-weight: 501;
+}
+
+
+@media(min-width: 320px) {
+	.row {
+		margin-left: 3rem !important;
+		margin-right: 3rem !important;
+	}
+
+}
+
+@media(min-width:768px) {
+	.row {
+		margin-left: 0.5rem !important;
+		margin-right: 0.5rem !important;
+	}
+
+	button {
+		display: none;
+	}
+
+	.item {
+		background-color: #989898;
+		border: 10px solid white;
+	}
+}
